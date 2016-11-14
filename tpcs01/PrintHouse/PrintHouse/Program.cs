@@ -12,7 +12,7 @@ namespace PrintHouse
 		public static void Smoke(int x)
 		{
 			if (x < 0)
-				Console.Write ();
+				Console.Write ("");
 			else if (x % 2 == 0)
 				Console.Write ("    ( (");
 			else
