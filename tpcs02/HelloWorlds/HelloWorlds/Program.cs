@@ -12,7 +12,7 @@ namespace HelloWorlds
         {
         }
 
-        static void Hello (string str = "")
+        static void Hello (string str)
         {
             Console.WriteLine((str == "") ? "Hello World!" : "Hello {0}!", str);
         }

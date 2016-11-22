@@ -10,15 +10,14 @@ namespace Morse
     {
         static void Main(string[] args)
         {
-            if (args.Length == 1)
+			
+			if (args.Length == 1)
             {
                 string result = Translate(int.Parse(args[0]));
                 Console.WriteLine("\n{0}", result);
             }
             else
-                Console.Error.WriteLine((args.Length == 0) ? "You need an argument" : "You need only one argument");
-
-            Console.ReadLine();
+				Console.Error.WriteLine("Invalid number of parameter (must be 1)");
         }
 
         #region LetterToMorse

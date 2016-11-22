@@ -9,17 +9,11 @@ namespace Add
     class Program
     {
         static void Main(string[] args)
-        {
-            try
-            {
-                Console.WriteLine(int.Parse(args[0]) + int.Parse(args[1]));
-            }
-            catch
-            {
-                Console.WriteLine("Invalid number of operands");
-            }
-
-            Console.ReadLine();
-        }
+		{
+			if (args.Length < 2)
+				Console.Error.WriteLine ("Invalid number of operands");
+			else
+				Console.WriteLine (int.Parse (args [0]) + int.Parse (args [1]));
+		}
     }
 }

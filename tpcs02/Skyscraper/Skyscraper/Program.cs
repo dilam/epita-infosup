@@ -12,10 +12,17 @@ namespace Skyscraper
         {
         }
 
+		static Random random = new Random();
+
+		static ConsoleColor GetRandomColor()
+		{
+			return (ConsoleColor)random.Next(0, 16);
+		}
+
         static void Ground()
         {
             Console.WriteLine(
-                "|    ____    |\n"+
+                "|    ____    |\n" +
                 "|___|-||-|___|"
                 );
         }
@@ -23,7 +30,7 @@ namespace Skyscraper
         static void Roof()
         {
             Console.WriteLine(
-                " ____________\n"+
+                " ____________\n" +
                 "|            |");
         }
 
@@ -36,23 +43,16 @@ namespace Skyscraper
             Console.ForegroundColor = GetRandomColor();
 
             Console.WriteLine(
-                "|  |O|  |O|  |\n"+
+                "|  |O|  |O|  |\n" +
                 "|            |");
             
             Console.BackgroundColor = back;
             Console.ForegroundColor = fore;
         }
 
-        static Random random = new Random();
-
-        static ConsoleColor GetRandomColor()
-        {
-            return (ConsoleColor)random.Next(0, 16);
-        }
-
         static void Floors(int n)
         {
-            if (n != 0)
+            if (n > 0)
             {
                 Floor();
                 Floors(--n);
