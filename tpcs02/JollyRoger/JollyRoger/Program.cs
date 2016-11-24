@@ -10,6 +10,7 @@ namespace JollyRoger
     {
         static void Main(string[] args)
         {
+			PrintSkull ();
         }
 
         static void Skull()
