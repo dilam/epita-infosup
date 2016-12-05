@@ -10,9 +10,9 @@ namespace Debugger
 		public static bool ex3() //FIXME maybe
 		{
 			int[] array = { 5, 1337, 42, 666, 1, 3, 1024};
-			for (uint i = 1; i < Misc.getLength (array); ++i) 
+			for (uint i = 0; i < Misc.getLength (array); ++i) 
 			{
-				ex3_2 (array, i-1, array [i]);
+				ex3_2 (array, i, array [i]);
 			}
 			return ex3_3 (array);
 		}
@@ -25,7 +25,7 @@ namespace Debugger
 				arr [i] = arr [i - 1];
 				--i;
 			}
-			arr [i] = val;	
+			arr [i] = val;
 		}
 
 		/*
@@ -34,7 +34,7 @@ namespace Debugger
 		static bool ex3_3(int[] arr) //FIXME maybe
 		{
 			uint i = 0;
-			for (; i < Misc.getLength (arr) - 2 && arr [i + 1] > arr [i]; ++i)
+			for (; i < Misc.getLength (arr) - 1 && arr [i + 1] > arr [i]; ++i)
 				continue;
 			return i == Misc.getLength (arr) - 1;
 		}

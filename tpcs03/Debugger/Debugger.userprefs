@@ -1,13 +1,24 @@
 ﻿<Properties StartupItem="Debugger/Debugger.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Debugger/Ex3.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Debugger/Ex2.cs">
     <Files>
       <File FileName="Debugger/Program.cs" Line="16" Column="1" />
       <File FileName="Debugger/Ex1.cs" Line="18" Column="4" />
-      <File FileName="Debugger/Ex2.cs" Line="9" Column="47" />
-      <File FileName="Debugger/Ex3.cs" Line="37" Column="37" />
+      <File FileName="Debugger/Ex2.cs" Line="9" Column="41" />
+      <File FileName="Debugger/Ex3.cs" Line="18" Column="1" />
       <File FileName="Debugger/Misc.cs" Line="13" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Debugger" expanded="True">
+            <Node name="Debugger" expanded="True">
+              <Node name="Ex2.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -16,6 +27,6 @@
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>
-    <Watch file="Debugger/Ex3.cs" line="22" offsetX="464" offsetY="336" expression="arr" liveUpdate="False" />
+    <Watch file="Debugger/Ex3.cs" line="22" offsetX="461" offsetY="336" expression="arr" liveUpdate="False" />
   </MonoDevelop.Ide.DebuggingService.PinnedWatches>
 </Properties>

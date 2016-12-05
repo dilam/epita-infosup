@@ -5,3 +5,11 @@ J'ai d'abord mis le breakpoint au while (l. 11). J'ai remarqué que isDivisor va
 Exercice 2.2
 
 J'ai mis le breakpoint au for (l. 9). Lors de la décrémentation de la variable "i", aulieu de s'arrêter à 0, lorsque i vaut 0 il passe à 4294967295. Pour arranger cela, j'ai fait arrêté la boucle à i = 1 et j'ai ajouté l'élément à la place 0 du tableau au résultat de fin.
+
+Exercice 2.3
+
+Fonction ex3(): La boucle for (l.13) ne prenait pas en compte le premier élément du tableau et commençait direct à 1 au lieu de 0. Lors de l'appel de la fonction ex3_2, on mettait count à i-1 alors qu'il devait bien commencer à i pour pouvoir faire toutes les valeurs.
+
+Fonction ex3_2(): Tout était bon pour celui là.
+
+Fonction ex3_3(): Il fallait mettre (i <= la longueur - 2) ou alors comme ce que j'ai mis (i < la longueur - 1), car le dernier élément n'était jamais parcouru et le i ne fait alors pas la bonne taille.
