@@ -1,8 +1,8 @@
-﻿<Properties StartupItem="Morse/Morse.csproj">
+﻿<Properties StartupItem="Loops/Loops.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Morse/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Loops/Program.cs">
     <Files>
-      <File FileName="Morse/Program.cs" Line="103" Column="26" />
+      <File FileName="Loops/Program.cs" Line="50" Column="29" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

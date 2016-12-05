@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs03/Loops/Loops/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs03/Loops/Loops/bin/Debug/Loops.exe.mdb
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs03/Loops/Loops/bin/Debug/Loops.exe
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs03/Loops/Loops/obj/x86/Debug/Loops.exe
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs03/Loops/Loops/obj/x86/Debug/Loops.exe.mdb

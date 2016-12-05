@@ -1,0 +1,7 @@
+Exercice 2.1
+
+J'ai d'abord mis le breakpoint au while (l. 11). J'ai remarqué que isDivisor vallait toujours la même chose, car le programme vérifie toujours pour les mêmes variables. J'ai donc changé le "42" par la variable "div". Une fois que isDivisor vallait "true", "stop" ne change pas non plus donc j'ai enlevé le "&" pour que stop puisse changer.
+
+Exercice 2.2
+
+J'ai mis le breakpoint au for (l. 9). Lors de la décrémentation de la variable "i", aulieu de s'arrêter à 0, lorsque i vaut 0 il passe à 4294967295. Pour arranger cela, j'ai fait arrêté la boucle à i = 1 et j'ai ajouté l'élément à la place 0 du tableau au résultat de fin.
