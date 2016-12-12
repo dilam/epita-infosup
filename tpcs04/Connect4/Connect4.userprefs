@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Connect4/Program.cs">
     <Files>
-      <File FileName="Connect4/Program.cs" Line="105" Column="37" />
+      <File FileName="Connect4/Program.cs" Line="34" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
