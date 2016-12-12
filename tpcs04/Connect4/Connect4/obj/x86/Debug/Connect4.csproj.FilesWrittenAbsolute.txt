@@ -1,0 +1,5 @@
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs04/Connect4/Connect4/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs04/Connect4/Connect4/bin/Debug/Connect4.exe.mdb
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs04/Connect4/Connect4/bin/Debug/Connect4.exe
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs04/Connect4/Connect4/obj/x86/Debug/Connect4.exe
+/afs/cri.epita.net/user/d/di/di_lam.nguyen/u/epita-infosup/tpcs04/Connect4/Connect4/obj/x86/Debug/Connect4.exe.mdb

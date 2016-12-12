@@ -46,7 +46,7 @@ namespace Loops
 
 			while (x < .00000001)
 			{
-				x = 1 / 2F * (x + (n / x));
+				x = 1F / 2F * (x + (2F / x));
 			}
 
 			return x;
