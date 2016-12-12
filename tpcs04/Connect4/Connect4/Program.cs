@@ -102,7 +102,7 @@ namespace Connect4
 
 		static bool CheckLine(char[,] grid, int h, bool player)
 		{
-			int lonY = grid.GetLength (1) - 4;
+			int lonY = grid.GetLength (1) - 3;
 			int i = 0;
 			bool win = false;
 
@@ -120,7 +120,7 @@ namespace Connect4
 
 		static bool CheckColumn(char[,] grid, int w, bool player)
 		{
-			int lonX = grid.GetLength (0) - 4;
+			int lonX = grid.GetLength (0) - 3;
 			int i = 0;
 			bool win = false;
 
@@ -177,7 +177,7 @@ namespace Connect4
 
 		static int AddToken(char[,] grid, int i, bool player)
 		{
-			if(grid[0,i] != '-')
+			if(grid[0, i] != '-')
 				return -1;
 
 			int lonX = grid.GetLength (0) - 1;
