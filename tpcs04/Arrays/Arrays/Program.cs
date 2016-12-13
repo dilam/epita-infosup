@@ -6,6 +6,11 @@ namespace Arrays
 	{
 		public static void Main (string[] args)
 		{
+			int[] list = new int[4]{5,4,9,3};
+			BubbleSort (list);
+			for (int i = 0; i < 4; i++)
+				Console.Write (list [i] + ", ");
+
 		}
 
 		static int Search(int[] arr, int e)

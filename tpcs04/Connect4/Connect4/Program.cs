@@ -6,10 +6,10 @@ namespace Connect4
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Veuillez entrer les dimensions de la grille de jeu.");
-			Console.Write ("Hauteur: ");
+			Console.WriteLine ("Please enter the dimensions of the game grid.");
+			Console.Write ("Height: ");
 			int x = Convert.ToInt32(Console.ReadLine ());
-			Console.Write ("Longueur: ");
+			Console.Write ("Width: ");
 			int y = Convert.ToInt32(Console.ReadLine ());
 
 			char[,] grid = CreateGrid (x, y);
@@ -35,7 +35,7 @@ namespace Connect4
 			Console.Clear ();
 			Print (grid, 0);
 			if (add == -1)
-				Console.WriteLine("La grille est pleine.");
+				Console.WriteLine("The grid is full.");
 			if (add == 1)
 				Console.WriteLine("Player " + (player ? "X" : "O") + " Win !!!");
 		}
